@@ -1,0 +1,13 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photoAlbumGrid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/aboutbongobondhu"
+    android:columnWidth="@dimen/photo_size"
+    android:horizontalSpacing="@dimen/photo_spacing"
+    android:numColumns="auto_fit"
+    android:padding="4dp"
+    android:stretchMode="columnWidth"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="outsideInset"
+    android:verticalSpacing="@dimen/photo_spacing" />

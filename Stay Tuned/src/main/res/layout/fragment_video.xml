@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.video.VideoFragment"
+    android:background="@drawable/aboutbongobondhu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/albumOne"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+                android:textColor="@color/title_color"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="৬ ফেব্রুয়ারি ১৯৭২ বাংলাদেশের স্থপতি বাঙালি জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান ভারতের কলকাতা সফর"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/albumTwo"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video2"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+                android:textColor="@color/title_color"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="১ থেকে ১০ ফেব্রুয়ারি মাস ১৯৭৩ জামালপুর"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/albumThree"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video3"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+                android:textColor="@color/title_color"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="বঙ্গবন্ধু শেখ মুজিবুর রহমান ৩১-জানুয়ারী-১৯৭২-সোমবারমুজিব বাহিনীর অস্র সমর্পণ অনুষ্ঠান"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/albumFour"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video4"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight=".1"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+                android:textColor="@color/title_color"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="১৯৭২ সালের ১৭ মার্চ ভারতের সেসময়ের প্রধানমন্ত্রী ইন্দিরা গান্ধী একটি দ্বিপক্ষীয় সফরে বাংলাদেশে আসেন"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

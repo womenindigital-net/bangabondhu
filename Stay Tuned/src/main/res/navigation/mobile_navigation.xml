@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_gallery">
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.womenindigital.staytuned.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_speech"
+        android:name="com.womenindigital.staytuned.ui.speech.SpeechFragment"
+        android:label="@string/menu_speech"
+        tools:layout="@layout/fragment_speech" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.womenindigital.staytuned.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_lifehistory"
+        android:name="com.womenindigital.staytuned.ui.lifehistory.LifeHistoryFragment"
+        android:label="@string/menu_life_history"
+        tools:layout="@layout/fragment_life_history"/>
+
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="com.womenindigital.staytuned.ui.video.VideoFragment"
+        android:label="@string/menu_videos"
+        tools:layout="@layout/fragment_video"/>
+
+    <fragment
+        android:id="@+id/nav_books"
+        android:name="com.womenindigital.staytuned.ui.books.BooksFragment"
+        android:label="@string/menu_books"
+        tools:layout="@layout/fragment_books"/>
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.womenindigital.staytuned.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_pictures"
+        android:name="com.womenindigital.staytuned.ui.picture.PicturesFragment"
+        android:label="@string/menu_photo"
+        tools:layout="@layout/fragment_picture" />
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.womenindigital.staytuned.ui.photos.PhotoFragment"
+        android:label="TEST"
+        tools:layout="@layout/photo_fragment" />
+
+
+</navigation>

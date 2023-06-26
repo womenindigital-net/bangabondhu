@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="370dp"
+    android:layout_gravity="center"
+    android:background="@drawable/aboutbongobondhu">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/popupImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#a8471d"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/popupTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/title_color"
+                    android:text="সর্বকালের সর্বশ্রেষ্ঠ বাঙালি (সোর্স : উইকিপিডিয়া)\nশেখ মুজিবুর রহমান ( বাংলা : শেখ মুজিবুর রহমান ; ১ মার্চ ১ঌ২০ - ১৫ আগস্ট ১ঌ৭৫) শেখ মুজিব বা খালি মুজিবের সংক্ষিপ্ত হয়ে একজন বাংলাদেশী রাজনীতিবিদ ও রাজনীতিবিদ ছিলেন। তাকে বাংলাদেশের &quot;জাতির পিতা&quot; বলা হয় । তিনি বাংলাদেশের প্রথম রাষ্ট্রপতি এবং পরবর্তীতে ১৯৭১ সালের ১৭ এপ্রিল থেকে ১৯৭৫ সালের ১৫ আগস্ট তাঁর হত্যাকাণ্ড পর্যন্ত বাংলাদেশের প্রধানমন্ত্রী হিসাবে দায়িত্ব পালন করেছিলেন । তিনি বাংলাদেশের স্বাধীনতার পেছনে চালিকা শক্তি হিসাবে বিবেচিত হন। তাঁকে জনপ্রিয়ভাবে &quot;বঙ্গবন্ধু&quot; (বঙ্গোবন্ধু) উপাধি দিয়ে ডাকা হয় &quot;বাংলার বন্ধু&quot;) বাংলাদেশের জনগণের দ্বারা। তিনি একটি শীর্ষস্থানীয় ব্যক্তিত্ব হয়ে ওঠেন এবং ১৯৪৯ সালে পাকিস্তানের পূর্ব পাকিস্তান ভিত্তিক রাজনৈতিক দল হিসাবে প্রতিষ্ঠিত আওয়ামী লীগের নেতা হন । মুজিব পূর্ব পাকিস্তানে জন্য এবং পরে বাংলাদেশের স্বাধীনতা আন্দোলন ও পিছনে কেন্দ্রীয় ব্যক্তিত্ব রাজনৈতিক স্বায়ত্তশাসন লাভ করার প্রচেষ্টা একজন গুরুত্বপূর্ণ ব্যক্তিত্ব হিসেবে জমা হয় বাংলাদেশের স্বাধীনতা যুদ্ধের ১৯৭১ সালের এভাবে তিনি গণ্য করা হয় &quot;Jatir Janak&quot; বা &quot;Jatir Pita&quot; (জাতির জাণোক বা জাতির পিতা , উভয় অর্থ &quot;জাতির পিতা&quot;) তাঁর মেয়ে শেখ হাসিনা তিনি আওয়ামী লীগের বর্তমান নেতা এবং বাংলাদেশের প্রধানমন্ত্রীও।"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="মুজিবের অনুপস্থিতির সময়, অনেক বাঙালি মুক্তি বাহিনীতে যোগ দিয়েছিল এবং ভারতীয় সশস্ত্র বাহিনী দ্বারা সহায়তা করে , তাদেরকে পরাজিত করেছিলবাংলাদেশ মুক্তিযুদ্ধের সময় পাকিস্তান সশস্ত্র বাহিনী । বাংলাদেশের স্বাধীনতার পরে, আন্তর্জাতিক চাপের কারণে মুজিব পাকিস্তানী হেফাজতে থেকে মুক্তি পেয়েছিলেন এবং ২০১২ সালের ১৯ জানুয়ারিতে ব্রিটেন ও ভারতের একটি সংক্ষিপ্ত সফর শেষে ঢাকায় ফিরে আসেন। নতুন দেশ গৃহীত সংসদীয় ব্যবস্থার অধীনে মুজিব বাংলাদেশের প্রধানমন্ত্রী হন। তিনি অস্থায়ী সংসদকে &quot;জাতীয়তাবাদ, ধর্মনিরপেক্ষতা, গণতন্ত্র এবং সমাজতন্ত্র&quot; এর চারটি মূলনীতি ঘোষণা করে একটি নতুন সংবিধান রচনার জন্য অভিযুক্ত করেছিলেন , যা তাঁর রাজনৈতিক মতামতকে সম্মিলিতভাবে মুজিববাদ হিসাবে পরিচিত বলে প্রতিফলিত করে । ১৯৭৩ সালে দেশের প্রথম সাধারণ নির্বাচনে আওয়ামী লীগ বিশাল ম্যান্ডেট জিতেছিল। তবে মুজিব ব্যাপক বেকারত্ব, দারিদ্র্য ও দুর্নীতির চ্যালেঞ্জের পাশাপাশি ১৯৭৪ সালের বাংলাদেশের দুর্ভিক্ষের মুখোমুখি হয়েছিল । স্থানীয় সুরক্ষা বাহিনী বিশেষত জাতীয় প্রতিরক্ষা বাহিনী বা জাতীয় রক্ষী বাহিনী কর্তৃক আদিবাসী সংখ্যালঘুদের মানবাধিকার লঙ্ঘনকে সাংবিধানিক স্বীকৃতি অস্বীকার করার জন্য সরকারকে সমালোচনা করা হয়েছিলআধাসামরিক ক্রমবর্ধমান রাজনৈতিক আন্দোলনের মধ্যে, মুজিব ১৯৭৫ সালের জানুয়ারিতে একটি দলীয় সমাজতান্ত্রিক শাসন শুরু করেছিলেন। ছয় মাস পরে, তাকে এবং তাঁর পরিবারের বেশিরভাগকে অভ্যুত্থানের সময় পুনর্নির্বাচিত সেনা কর্মকর্তাদের হাতে হত্যা করা হয়েছিল । পরবর্তীকালে একটি সামরিক আইন সরকার প্রতিষ্ঠিত হয়। ২০০৪ সালের বিবিসি জরিপে মুজিব সর্বকালের সর্বশ্রেষ্ঠ বাঙালি নির্বাচিত হয়েছিলেন।"
+                    android:textColor="@color/title_color"
+                    android:textSize="12dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textColor="@color/title_color"
+                    android:textStyle="bold"
+                    android:text="\nউইমেন ইন ডিজিটাল: "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/title_color"
+                    android:text="২০১৩ সালের ফেব্রুয়ারি মাসের ৪ তারিখে উইমেন ইন ডিজিটাল এর জন্ম। বর্তমান আওয়ামীলীগ সরকারের নির্বাচনী ইশতেহার &quot;ডিজিটাল বাংলাদেশ&quot; থেকে অনুপ্রাণিত হয়ে এবং ডিজিটাল বাংলাদেশ স্বপ্নকে বাস্তবায়নের লক্ষ্যে বাবা বীর মুক্তিযোদ্ধা আবুল খায়ের  পাটোয়ারী অনুপ্রেরণায়  আছিয়া খালেদা নীলা প্রতিষ্ঠা করেন উইমেন ইন ডিজিটাল। তারা মনে করেন দেশের মানুষের অর্ধেকই  নারী আর নারী যদি পিছিয়ে থাকে তাহলে ডিজিটাল বাংলাদেশ  বাস্তবায়নের পথে বাধা হয়ে দাঁড়াতে পারে।  তারা নিজ উদ্দ্যোগে প্রতিষ্ঠানটি প্ৰতিষ্ঠা করেন। উইমেন ইন ডিজিটাল টেকনোলজির মাধ্যমে নারীর ক্ষমতায়ন করেন এবং ইন্টারনেটের মাধ্যমে  নারীর অর্থনৈতিক ক্ষমতায়ন নিশ্চিত করেন। এ পর্যন্ত প্রতিষ্ঠানটি ১০,০০০ এর ও বেশি নারীকে IT প্রশিক্ষণ দিয়েছে এবং ৭০০০ এর বেশি নারীর কর্ম স্থানের বাবস্থা  করেছে। আন্তর্জাতিক  অনেক পুরুষ্কারের অধিকারী এই প্রতিষ্ঠানটি বরাবরই দেশের ইতিহাসকে সম্মান রেখে অনেক উদ্যোগ নিয়েছে এবং  উইমেন ইন ডিজিটাল এর  ৭ম জন্ম বার্ষিকীতে জাতির জনক বঙ্গবন্ধু শেখ  মুজিবর রহমানের ১০০ তম জন্মদিনের উপহার হিসেবে তারা এই মোবাইল অপ্প্লিকেশনটি ডেভেলপ করেছে &quot;Biography of Bangabandhu&quot; মোবাইল অপ্প্লিকেশনটির বেশিরভাগ তথ্য বিভিন্ন জায়গা থেকে সংগৃহীত। আমরা কৃতজ্ঞতা জানাই তাদের সকলকে, CRI, Wikipedia, Google, ALBD.org, mujib100.gov.bd, researchgate, xeroxtree, pathagar, bn.banglapedia.org নাম অজানা আর ও বিভিন্ন জায়গা থেকে।"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:textColor="@color/title_color"
+                    android:text="আপনার সংগ্রহ শেয়ার করুন:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/title_color"
+                    android:text="এই এপ্লিকেশন সম্পূর্ণ তথ্য বহুল একটি এপ্লিকেশন। আমাদের রিসার্চ বলে বাংলাদেশের বিভিন্ন মানুষের কাছে অনেক দুর্লভ  ছবি, ভিডিও  ও নানান ধরণের তথ্য  আছে। তারা চাইলে সেইসব তথ্য এই অপ্প্লিকেশনের মধ্যে শেয়ার করতে পারেন মানুষের কাছে। যে যেই তথ্য এই অপ্প্লিকেশনে শেয়ার করবে তার নাম অপ্প্লিকেশনে উল্ল্যেখ থাকবে এবং অনন্যা মানুষ চাইলে সোশ্যাল মিডিয়াতে সেই তথ্য গুলো শেয়ার করতে পারবে। "/>
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:id="@+id/popupOkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@color/title_color"
+            android:layout_gravity="center"
+            android:onClick="closePopUp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a8471d</color>
+    <color name="colorPrimaryDark">#050404</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="title_color">#050404</color>
+    <color name="womenInDigital">#ED1D24</color>
+
+
+    <!-- Your AppTheme or other themes/styles here #EAAE6D -->
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="grid_state_pressed">#BB561e14</color>
+    <color name="grid_state_focused">#77561e14</color>
+</resources>

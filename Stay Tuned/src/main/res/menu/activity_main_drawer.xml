@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/eknojor"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_speech"
+            android:icon="@drawable/hand_small"
+            android:title="@string/menu_speech" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/quote"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_lifehistory"
+            android:icon="@drawable/skitch1"
+            android:title="@string/menu_life_history"/>
+
+        <item
+            android:id="@+id/nav_pictures"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_photo" />
+
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/icons_video_gallery"
+            android:title="@string/menu_videos" />
+
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/iconbook"
+            android:title="@string/menu_books" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/contribute"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@mipmap/ic_launcher"
+            android:title="TEST" />
+
+    </group>
+</menu>
